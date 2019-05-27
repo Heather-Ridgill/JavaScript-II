@@ -1,7 +1,16 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-var MyBill = 100;
-calcTax(myBill, )
+var passed = 3;
+
+var addTo = function () {
+    var inner = 2;
+    return passed + inner;
+};
+
+console.dir(addTo());
+var passed = 4;
+
+console.dir(addTo());
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
